@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discrete Mathematics ePortfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css"/>
+</head>
+<body>
+  <header id="rcorners3">
+  <div class="header-flex">
+    <div>
+      <h1>ePortfolio in Discrete Mathematics</h1>
+      <p class="subtitle">Reflections, Thoughts, Applications, Learnings, and Analysis</p>
+    </div>
+    <div>
+      <p class="highlight-text">HOW DO WE APPLY <strongh>DISCRETE MATHEMATICS</strongh> IN REAL LIFE?</p>
+    </div>
+  </div>
+  </header>
+
+  <nav>
+    <div>
+      <h1 id="h1"><i class="fas fa-book"></i> CMSC 57<button id="themeToggle"><i class="fas fa-moon"></i></button></h1>
+    </div>
+    <br>
+    <h2 style="font-size: medium;"><i class="fas fa-user"></i> Ed Ian Jay O. Baguio</h2>
+      <a href="/profile/profile.html" style="text-decoration: none;">
+        <p style="font-size: small; text-align: center; color: rgb(97, 9, 9);">[PROFILE]</p>
+      </a>
+    <br>
+      <a href="#counting"><i class="fas fa-sort-numeric-up"></i> Counting</a>
+      <a href="#algebra"><i class="fas fa-cubes"></i> Algebraic Structures</a>
+      <a href="#groups"><i class="fas fa-layer-group"></i> Groups, Rings & Fields</a>
+      <a href="#probability"><i class="fas fa-dice"></i> Discrete Probability</a>
+      <a href="#graphs"><i class="fas fa-project-diagram"></i> Graphs</a>
+      <a href="../index.html" style="text-align: center;">
+            <button>Go back</button>
+      </a>
+
+    <footer id="rcorners2">
+      <p>&copy; 2025</p>
+      <p>Second Semester <br> A.Y. 2024–2025</p>
+      <p style="color: rgb(97, 9, 9);"><i class="fas fa-university"></i> University of the Philippines Mindanao</p>
+    </footer>
+  </nav>
+
+<main>
+    <!-- COUNTING -->
+    <section id="counting" class="collapsible-section">
+      <h2>I. Counting</h2>
+      
+      <div class="subtopic">
+        <button class="toggle-subtopic">A. Basics of Counting ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Counting is the mathematical process of determining how many ways events or choices can occur, using structured rules.</strong></p>
+          <p>It's widely used in daily planning, event scheduling, game scoring, and estimating possible outcomes, like computing how many outfit combinations you can wear.</p>
+          <p>I learned the importance of logical sequencing using tools like tree diagrams and tables, which helped me approach complex tasks step by step.</p>
+          <p>This topic taught me that even simple counts can become tricky without structure—like in card games where each move has multiple outcomes.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">B. Pigeonhole Principle ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>The pigeonhole principle states that if you place more items into fewer containers, at least one container must contain more than one item.</strong></p>
+          <p>It's useful in proving unavoidable scenarios like shared birthdays in a group or detecting duplicate usernames in a system.</p>
+          <p>This principle helped me understand how to prove something must exist without finding it directly—powerful in logical problem-solving and cybersecurity checks.</p>
+          <p>In games, this principle can explain why conflicts or overlaps are inevitable when too many players pick from a limited set of options.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">C. Permutation and Combination ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Permutations are ordered arrangements, while combinations are selections where order doesn't matter.</strong></p>
+          <p>They apply to password generation, sports brackets, group project assignments, and even crafting levels in video games.</p>
+          <p>Mastering the formulas enhanced my ability to evaluate scenarios efficiently, especially when making decisions under constraints.</p>
+          <p>Learning when to use permutations vs. combinations improved my accuracy in analyzing options—like determining seating orders or lottery odds.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">D. Binomial Coefficients ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Binomial coefficients represent how many ways we can choose a subset of items from a larger set, often shown in Pascal’s Triangle.</strong></p>
+          <p>They are used in expanding algebraic expressions, calculating probabilities, and designing balanced tournament brackets.</p>
+          <p>I learned to connect patterns in algebra to combinatorics—for instance, how (a + b)^n reflects real-world choice structures.</p>
+          <p>This connection deepened my appreciation for how mathematical expressions mirror real-life arrangements like team pairings or recipe combinations.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">E. Generalized Permutation and Computation ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>This concept extends permutations to include repeated elements or indistinguishable items.</strong></p>
+          <p>It’s applied in role assignments, product arrangements with identical items, and chemical molecule structures.</p>
+          <p>Learning how to adjust for repetition helped me solve more realistic problems—like arranging identical desks in different classrooms.</p>
+          <p>It reminded me that real-life problems aren't always unique and clean—many involve repeated choices and limited variation.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">F. Generating Permutations and Combinations ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>This refers to creating all possible permutations or combinations, often with algorithms or code.</strong></p>
+          <p>It’s used in simulations, testing software inputs, puzzle solvers, and game level generation (e.g., generating all possible puzzle boards).</p>
+          <p>I learned to write programs that list possible outcomes efficiently—crucial for solving optimization and search problems.</p>
+          <p>By generating possibilities programmatically, I saw how computers explore game paths, AI decision trees, and route planning solutions.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALGEBRA -->
+    <section id="algebra" class="collapsible-section">
+      <h2>II. Algebraic Structures and Groups</h2>
+      <div class="subtopic">
+        <button class="toggle-subtopic">A. Introduction to Algebraic Structures ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>This topic introduces abstract mathematical structures such as groups, which are sets combined with operations that follow specific rules like closure, associativity, identity, and invertibility.</strong></p>
+          <p>Algebraic structures are used in cryptography (e.g., RSA encryption), error-detecting codes, and digital systems where operations must behave predictably and securely.</p>
+          <p>For example, the set {0, 1, 2} with addition modulo 3 forms a group: (1 + 2) mod 3 = 0. This shows how structure ensures that results stay within the set.</p>
+          <p>Learning group properties made abstract problems more approachable, especially when analyzing symmetrical patterns in puzzles or simplifying game mechanics like rotating a Rubik’s cube, which follows group theory.</p>
+          <p>I now think of problems in terms of relationships and structure. This perspective is powerful in algorithms, computer science, and theoretical physics, where systems often follow strict mathematical rules.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GROUPS -->
+    <section id="groups" class="collapsible-section">
+      <h2>III. Groups, Rings, and Fields</h2>
+      <div class="subtopic">
+        <button class="toggle-subtopic">A. Algebraic Hierarchies ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>This topic explores algebraic systems that extend groups into rings and fields—structures defined by sets and operations that follow specific rules.</strong></p>
+          <p>These structures are used in digital circuits, error correction (like QR codes), and cryptographic algorithms such as AES, which rely on finite field arithmetic.</p>
+          <p>For example, in the field ℤ₅ (integers modulo 5), every non-zero element has a multiplicative inverse: 2 × 3 ≡ 1 mod 5. This allows secure mathematical operations in encryption.</p>
+          <p>Rings introduce two operations (like addition and multiplication), such as ℤ (integers), where you can add and multiply but not always divide. Fields go further by supporting division—like rational numbers ℚ.</p>
+          <p>Visualizing these systems helped: for instance, drawing clock faces (modular groups), grids for multiplication tables (rings), and showing symmetry in polygons (group actions).</p>
+          <p>Understanding this hierarchy showed me how complex systems like computer processors and secure messaging apps rely on structured, rule-based math beneath the surface.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBABILITY -->
+    <section id="probability" class="collapsible-section">
+      <h2>IV. Discrete Probability</h2>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">A. Introduction to Discrete Probability ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Discrete probability deals with the likelihood of outcomes in systems with a finite or countable number of possibilities.</strong></p>
+          <p>It’s commonly used in games of chance (like dice, cards, and lotteries), simulations, and decision-making where outcomes can be listed and counted.</p>
+          <p>For example, the probability of rolling a 4 on a six-sided die is 1/6. In a card game, the chance of drawing an Ace from a standard deck is 4/52.</p>
+          <p>I learned to analyze outcomes and calculate their probabilities, which is key in evaluating risks, game strategies, and data-driven decisions.</p>
+          <p>It taught me how randomness isn't just chaos—it can be measured and managed using rules and logic.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">B. Probability Theory ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>This formalizes probability through rules like addition, multiplication, and conditional probability.</strong></p>
+          <p>These principles are used in fields like finance (stock predictions), weather forecasting, and AI algorithms where event dependencies matter.</p>
+          <p>Example: If the chance of rain is 0.3 and carrying an umbrella if it rains is 0.9, then the chance of both is 0.3 × 0.9 = 0.27 (27%).</p>
+          <p>Mastering these rules gave me confidence in evaluating compound events and understanding how one probability can affect another.</p>
+          <p>It made randomness feel systematic, especially when building probability trees or event diagrams.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">C. Bayes Theorem ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Bayes Theorem is used to update probabilities based on new evidence.</strong></p>
+          <p>It’s widely used in spam filters, disease diagnosis (e.g., COVID test accuracy), and machine learning classification models.</p>
+          <p>Example: If a disease affects 1% of the population and a test is 99% accurate, Bayes Theorem helps find the actual chance of being sick given a positive result—which is often much lower than expected.</p>
+          <p>I learned how initial beliefs (prior probabilities) shift with new data (evidence), improving decision-making under uncertainty.</p>
+          <p>This concept changed how I think about evidence—not just whether it's present, but how strongly it supports a conclusion.</p>
+        </div>
+      </div>
+
+      <div class="subtopic">
+        <button class="toggle-subtopic">D. Expected Value and Variance ▼</button>
+        <div class="subtopic-content">
+          <p style="font-size: 20px;"><strong>Expected value measures the average outcome of a random process, while variance measures how spread out those outcomes are.</strong></p>
+          <p>These are used in economics (predicting returns), insurance (risk pricing), and games (designing fair or balanced systems).</p>
+          <p>Example: In a game where you win ₱100 with probability 0.2 and lose ₱20 with probability 0.8, the expected value is (100×0.2) + (-20×0.8) = ₱4. This tells you the average gain per game.</p>
+          <p>Variance helps measure risk—low variance means outcomes are consistent; high variance means unpredictable results.</p>
+          <p>It trained me to assess not just what’s likely to happen, but how risky or volatile an outcome might be—important for strategic planning and game theory.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- GRAPHS -->
+<section id="graphs" class="collapsible-section">
+  <h2>V. Graphs</h2>
+
+  <div class="subtopic">
+  <button class="toggle-subtopic">A. Graphs and Graph Models ▼</button>
+  <div class="subtopic-content">
+    <p style="font-size: 20px;">
+      <strong>Graphs are mathematical structures used to model pairwise relationships between objects, often visualized as nodes (vertices) and edges (links).</strong>
+    </p>
+    <p>
+      For example, a social network graph might have 5 people (nodes): Alice, Bob, Carol, Dave, and Eve. If Alice is friends with Bob and Carol, edges connect Alice to Bob and Alice to Carol. Numerically, this can be represented as edges: (Alice–Bob), (Alice–Carol), (Bob–Dave), and (Carol–Eve).
+    </p>
+    <p>
+      Another example is a road map where intersections are nodes and roads are edges. If you want to travel from node 1 to node 4, the graph helps find routes efficiently.
+    </p>
+    <p>
+      Understanding graphs helped me model complex systems, like finding shortest paths or analyzing connectivity, which are crucial in network design and analysis.
+    </p>
+    <p>
+      Graphs make it easier to visualize and solve problems involving connections and relationships.
+    </p>
+  </div>
+</div>
+
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">B. Graph Terminology and Special Types of Graphs ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>This covers special graphs such as bipartite graphs (nodes split into two sets), complete graphs (every node connected), and tree graphs (no cycles).</strong></p>
+      <p>Bipartite graphs apply to matching problems (job assignments), trees model organizational hierarchies or file systems.</p>
+      <p>Learning these types helped me identify patterns and select the right graph model for different problems.</p>
+      <p>It improved my problem-solving by clarifying graph properties and constraints.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">C. Representing Graphs and Graph Isomorphism ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Graphs can be stored using adjacency matrices or lists, and isomorphism checks if two graphs have the same structure despite different labels.</strong></p>
+      <p>These are important in database queries, chemical compound comparisons, and pattern recognition.</p>
+      <p>I learned to represent graphs efficiently and detect structural equivalence, which is useful in optimizing data storage and finding similarities.</p>
+      <p>Detecting hidden graph similarities opened up new ways to analyze complex data.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">D. Connectivity ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Connectivity studies if there is a path between nodes, including connected components and bridges.</strong></p>
+      <p>Used to evaluate network reliability, such as checking if communication stays intact when some nodes fail.</p>
+      <p>I learned to find connected parts and critical links, vital for designing robust networks.</p>
+      <p>This deepened my appreciation of how connectivity affects system stability and function.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">E. Euler and Hamiltonian Paths ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Euler paths traverse every edge once; Hamiltonian paths visit every vertex once.</strong></p>
+      <p>These are applied in route planning (garbage collection routes), puzzles (traveling salesman problem), and game level design.</p>
+      <p>I learned to identify these paths and their existence conditions, useful in optimizing routes and resource use.</p>
+      <p>Exploring these paths made traversal challenges more logical and fun.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">F. Shortest-Path Problem ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Finding the shortest path means determining the minimum cost or distance between nodes.</strong></p>
+      <p>Applications include GPS navigation, delivery logistics, and network routing.</p>
+      <p>I learned Dijkstra’s algorithm and heuristic methods, which efficiently find shortest paths in weighted graphs.</p>
+      <p>This topic stood out as highly practical, bridging theory and real-world problem solving.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">G. Planar Graphs ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Planar graphs can be drawn on a plane without edges crossing.</strong></p>
+      <p>Used in designing circuit boards, maps, and urban planning to avoid conflicts and overlaps.</p>
+      <p>I learned planarity tests and how to optimize layouts, which aids in spatial design problems.</p>
+      <p>The visual nature of planarity helped me understand spatial constraints and graph embedding.</p>
+    </div>
+  </div>
+
+  <div class="subtopic">
+    <button class="toggle-subtopic">H. Graph Coloring ▼</button>
+    <div class="subtopic-content">
+      <p style="font-size: 20px;"><strong>Graph coloring assigns colors to nodes so no adjacent nodes share the same color.</strong></p>
+      <p>This applies to scheduling (avoiding conflicts), map coloring, and register allocation in compilers.</p>
+      <p>I learned to compute chromatic numbers and apply coloring algorithms to minimize resources or conflicts.</p>
+      <p>Despite its simplicity, graph coloring revealed deep challenges and practical benefits in optimization.</p>
+    </div>
+  </div>
+
+</section>
+
+
+</main>
+
+  <a href="#" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+  <script>
+    const buttons = document.querySelectorAll('.toggle-subtopic');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+      });
+    });
+
+    document.getElementById('themeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      const icon = document.getElementById('themeToggle').querySelector('i');
+      icon.classList.toggle('fa-moon');
+      icon.classList.toggle('fa-sun');
+    });
+
+    window.addEventListener('scroll', () => {
+      const backToTop = document.getElementById('backToTop');
+      if (window.scrollY > 300) {
+        backToTop.style.display = 'block';
+      } else {
+        backToTop.style.display = 'none';
+      }
+    });
+  </script>
+</body>
+</html>

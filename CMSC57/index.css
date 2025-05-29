@@ -1,0 +1,51 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-image: url('./attributes/upmin.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      overflow: hidden;
+    }
+
+    nav {
+      position: absolute;
+      top: 250px;
+      left: 250px;
+      background-color: rgba(0, 0, 0, 0.2); 
+      padding: 20px 25px;
+      border-radius: 12px;
+    }
+
+    nav h1 {
+      font-size: 32px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+
+    button {
+      background-color: rgb(97, 9, 9);
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 2.5s ease;
+    }
+
+    button:hover {
+      background-color: rgb(130, 20, 20);
+      transform: scale(1.05);
+    }
